@@ -1,3 +1,4 @@
+/*
 // stretchy_buffer.h - v1.04 - public domain - nothings.org/stb
 // a vector<>-like dynamic array for C
 //
@@ -171,6 +172,7 @@
 // LICENSE
 //
 //   See end of file for license information.
+*/
 
 #ifndef STB_STRETCHY_BUFFER_H_INCLUDED
 #define STB_STRETCHY_BUFFER_H_INCLUDED
@@ -217,7 +219,7 @@ static void * stb__sbgrowf(void *arr, int increment, int itemsize)
       return (void *) (2*sizeof(int)); // try to force a NULL pointer exception later
    }
 }
-#endif // STB_STRETCHY_BUFFER_H_INCLUDED
+#endif /* STB_STRETCHY_BUFFER_H_INCLUDED */
 
 
 /*
