@@ -2630,7 +2630,7 @@ typedef enum
    STB__chunked    = STB__PARENT,
    STB__alloc      = STB__CHUNKS,
 
-   STB__chunk_raw  = 4,
+   STB__chunk_raw  = 4
 } stb__alloc_type;
 
 /* these functions set the bottom bits of a pointer efficiently */
